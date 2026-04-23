@@ -1,4 +1,4 @@
-/* Portfolio Website Styles - Pastel backgrounds with pop colors */
+/* Portfolio Website Styles - Blue theme */
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #2c3e50;
-    background: linear-gradient(135deg, #fef6f0 0%, #f0f4f8 100%);
+    background: linear-gradient(135deg, #f0f4ff 0%, #f0f4f8 100%);
 }
 
 /* Navigation */
@@ -34,7 +34,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #e74c3c;
+    color: #2563eb;
 }
 
 .nav-links {
@@ -51,7 +51,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #e74c3c;
+    color: #2563eb;
 }
 
 /* Hero Section */
@@ -62,7 +62,7 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(135deg, #fce8f3 0%, #e8f5fc 100%);
+    background: linear-gradient(135deg, #e8eeff 0%, #e8f5fc 100%);
 }
 
 .hero-content h1 {
@@ -72,7 +72,7 @@ nav {
 }
 
 .hero-content .highlight {
-    color: #e74c3c;
+    color: #2563eb;
 }
 
 .hero-content p {
@@ -86,7 +86,7 @@ nav {
     height: 200px;
     border-radius: 50%;
     margin: 2rem auto;
-    border: 5px solid #e74c3c;
+    border: 5px solid #2563eb;
     object-fit: cover;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
@@ -94,7 +94,7 @@ nav {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: #e74c3c;
+    background: #2563eb;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -104,7 +104,7 @@ nav {
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(231, 76, 60, 0.3);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
 }
 
 /* Sections */
@@ -126,7 +126,7 @@ h2::after {
     display: block;
     width: 100px;
     height: 4px;
-    background: #e74c3c;
+    background: #2563eb;
     margin: 1rem auto;
     border-radius: 2px;
 }
@@ -144,7 +144,7 @@ h2::after {
 }
 
 .about-text h3 {
-    color: #e74c3c;
+    color: #2563eb;
     margin-bottom: 1rem;
 }
 
@@ -176,7 +176,7 @@ h2::after {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
 }
 
 .project-content {
@@ -191,8 +191,8 @@ h2::after {
 .project-category {
     display: inline-block;
     padding: 0.3rem 1rem;
-    background: #ffecd2;
-    color: #e74c3c;
+    background: #dbeafe;
+    color: #2563eb;
     border-radius: 20px;
     font-size: 0.9rem;
     margin-bottom: 1rem;
@@ -201,7 +201,7 @@ h2::after {
 .project-link {
     display: inline-block;
     margin-top: 1rem;
-    color: #e74c3c;
+    color: #2563eb;
     text-decoration: none;
     font-weight: bold;
 }
@@ -222,7 +222,7 @@ h2::after {
 .download-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: #3498db;
+    background: #2563eb;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -232,7 +232,7 @@ h2::after {
 }
 
 .download-button:hover {
-    background: #2980b9;
+    background: #1d4ed8;
 }
 
 .resume-preview {
@@ -246,11 +246,11 @@ h2::after {
     background: #f8f9fa;
     padding: 1.5rem;
     border-radius: 10px;
-    border-left: 4px solid #e74c3c;
+    border-left: 4px solid #2563eb;
 }
 
 .resume-section h3 {
-    color: #e74c3c;
+    color: #2563eb;
     margin-bottom: 1rem;
 }
 
@@ -299,11 +299,11 @@ h2::after {
 }
 
 .testimonial {
-    background: #fef6f0;
+    background: #eff6ff;
     padding: 1.5rem;
     border-radius: 10px;
     margin-top: 1rem;
-    border-left: 4px solid #e74c3c;
+    border-left: 4px solid #2563eb;
 }
 
 .testimonial p {
@@ -313,7 +313,7 @@ h2::after {
 
 .testimonial-author {
     font-weight: bold;
-    color: #e74c3c;
+    color: #2563eb;
 }
 
 /* Contact Section */
@@ -356,7 +356,7 @@ h2::after {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #e74c3c;
+    border-color: #2563eb;
 }
 
 .form-group textarea {
@@ -366,7 +366,7 @@ h2::after {
 
 .submit-button {
     padding: 1rem 2rem;
-    background: #e74c3c;
+    background: #2563eb;
     color: white;
     border: none;
     border-radius: 50px;
@@ -376,7 +376,7 @@ h2::after {
 }
 
 .submit-button:hover {
-    background: #c0392b;
+    background: #1d4ed8;
 }
 
 .contact-info h3 {
@@ -394,12 +394,12 @@ h2::after {
 .contact-icon {
     width: 50px;
     height: 50px;
-    background: #fef6f0;
+    background: #eff6ff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e74c3c;
+    color: #2563eb;
     font-size: 1.5rem;
 }
 
@@ -412,19 +412,19 @@ h2::after {
 .social-link {
     width: 50px;
     height: 50px;
-    background: #fef6f0;
+    background: #eff6ff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e74c3c;
+    color: #2563eb;
     text-decoration: none;
     font-size: 1.5rem;
     transition: background 0.3s, transform 0.3s;
 }
 
 .social-link:hover {
-    background: #e74c3c;
+    background: #2563eb;
     color: white;
     transform: scale(1.1);
 }
@@ -443,16 +443,13 @@ footer {
     .nav-links {
         gap: 1rem;
     }
-    
     .hero-content h1 {
         font-size: 2rem;
     }
-    
     .about-content,
     .contact-container {
         grid-template-columns: 1fr;
     }
-    
     .portfolio-grid,
     .services-grid {
         grid-template-columns: 1fr;
